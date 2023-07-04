@@ -3,7 +3,7 @@
 #include "string.h"
 
 // Set DEBUG to 1 to print debug messages
-#define DEBUG 1
+#define DEBUG 0
 
 int * productoMatrices (int a[][DIM], int b[][DIM], int am, int an, int bm, int bn) {
   int * result = calloc((am * bn), sizeof(int));
@@ -91,7 +91,6 @@ int main() {
   char input[200];
   char * output;
 
-  puts("Hola bro!");
   puts("Si queres ingresar un mensaje para encriptar marca 0.");
   puts("Si queres ingresar un mensaje para desencriptar marca 1.");
   puts("Ingresar -1 para finalizar programa.");
