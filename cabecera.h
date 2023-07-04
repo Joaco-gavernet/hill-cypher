@@ -8,12 +8,12 @@
   // Se definen constantes de dimension para operar con matrices en memoria
   #ifndef DIM
     #define DIM 3
-    #define MOD 255
+    #define MOD 127
   #endif
 
   // Inicializamos la matriz de key/llave para encriptar y desencriptar mensajes (alcance global)
   int matrizKey[DIM][DIM] = {{7, 0, 0}, {0, 1, 1}, {0, 8, 9}};
-  int matrizKeyInvserse[DIM][DIM] = {{73, 0, 0}, {0, 9, 254}, {0, 247, 1}};
+  int matrizKeyInvserse[DIM][DIM] = {{109, 0, 0}, {0, 9, 126}, {0, 119, 1}};
 
   // Se definen los tipos de datos utilizados
   typedef struct {
