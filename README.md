@@ -29,3 +29,8 @@ Desencriptando cadena...
 String length: 22
 Cadena desencriptada: Som5s$T☺Wies del↓<♥F6T
 ```
+Notar que aún se presentan errores de presición al trabajar con cadenas ASCII de representación en 7 bits. 
+
+# Historial
+
+# Colaboradores
