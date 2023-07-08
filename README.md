@@ -1,4 +1,4 @@
-# Descripción
+#  Descripción
 
 ¿Alguna vez te preguntaste como cifrar mensajes utilizando multiplicación de matrices? No te preocupes, nosotros tampoco, pero hoy te vamos a contar un poco sobre como podrías hacerlo utilizando una técnica denominada **Cifrado de Hill**. 
 
@@ -11,7 +11,7 @@ Si queres ingresar un mensaje para encriptar marca 0.
 Si queres ingresar un mensaje para desencriptar marca 1.
 ```
 
-### Encriptar
+### :lock: Encriptar 
 
 ```
 Elijo la opcion: 0
@@ -22,7 +22,7 @@ Encriptando cadena...
 Cadena encriptada: I^Lu▬:P>▬d♣xa‼xy|9§y0P
 ```
 
-### Desencriptar
+### :unlock: Desencriptar
 
 ```
 Elijo la opcion: 1
