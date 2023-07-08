@@ -35,8 +35,19 @@ Cadena desencriptada: Som5s$T☺Wies del↓<♥F6T
 ```
 > Notar que aún se presentan errores de presición al trabajar con cadenas ASCII de representación en 7 bits. 
 
-# Historial
+# Historial de **problemas** y **soluciones**
+Para llevar a cabo este proyecto seguimos un largo y prolijo camino de perfeccionamiento de nuestras soluciones. Se presentan los problemas encontrados y las soluciones respectivas en orden secuencial: 
 
+### 1. Punto flotante
+¿Como podemos elegir una matriz llave que nos permita trabajar con una inversa compuesta por números enteros? La solución fue utilizar la regla de cramer para hayar la inversa de una matriz llave, utilizando la formula: 
+
+$$ A^{-1} = 1 /over det(A) $$
+
+Donde $C^T$ es la traspuesta de la matriz de cofactores C, de elementos: 
+
+$$ cij = (-1)^(i+j) det(Mij) $$
+
+La matriz Mij es obtenida al suprimir la fila i y la columna j de la matriz A. 
 
 # Colaboradores
 - [Ivan Barrios]()
@@ -46,7 +57,7 @@ Cadena desencriptada: Som5s$T☺Wies del↓<♥F6T
 - [Taciano Pacchialat]()
 
 
-# Bibliografía
+# Recursos
 
 Material audiovisual complementario: <br><br>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=-EQ8UomTrAQ" target="_blank"><img src="http://img.youtube.com/vi/-EQ8UomTrAQ/0.jpg" 
