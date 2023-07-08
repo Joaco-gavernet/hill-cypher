@@ -41,13 +41,13 @@ Para llevar a cabo este proyecto seguimos un largo y prolijo camino de perfeccio
 ### 1. Punto flotante
 ¿Como podemos elegir una matriz llave que nos permita trabajar con una inversa compuesta por números enteros? La solución fue utilizar la regla de cramer para hayar la inversa de una matriz llave, utilizando la formula: 
 
-$$ A^{-1} = 1 /over det(A) $$
+$$ A^{-1} = {{ 1 \over det(A) } * C^{T} } $$
 
 Donde $C^T$ es la traspuesta de la matriz de cofactores C, de elementos: 
 
-$$ cij = (-1)^(i+j) det(Mij) $$
+$$ c_{\text{ i j}} = (-1)^{i + j} * det(M_{\text{ i j}}) $$
 
-La matriz Mij es obtenida al suprimir la fila i y la columna j de la matriz A. 
+La matriz $M_{\text{ i j}}$ es obtenida al suprimir la fila $i$ y la columna $j$ de la matriz $A$. 
 
 # Colaboradores
 - [Ivan Barrios]()
